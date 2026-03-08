@@ -1,9 +1,7 @@
 {
-  "command": "ping",
-  "ip": "127.0.0.1",
   "__proto__": {
     "env": {
-      "PATH": "./node_modules/.bin"
+      "PATH": "/app/node_modules/.bin" 
     }
   }
 }
